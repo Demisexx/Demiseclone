@@ -14,17 +14,17 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather on Telegram",
-      "value": "",
+      "value": "5180439374:AAFD4BtBgmKdPnFBJq_YIODfk6fxj6WGzVE",
       "required": true
     },
     "GDRIVE_FOLDER_ID": {
       "description": "Google Drive Folder ID to Clone to. (Dont paste a link)",
-      "value": "",
+      "value": "1CxzJwremDdS7g1Q7o-S2fS_ROxqD5Wk7",
       "required": true
     },
     "OWNER_ID": {
       "description": "Get this value by sending /id to @kelverbot on Telegram.",
-      "value": "",
+      "value": "2142215890",
       "required": true
     },
     "THREAD_COUNT": {
@@ -34,7 +34,7 @@
     },
     "AUTHORISED_USERS" : {
       "description": "List of user ids to allow bot access to. Note: Write within [] and seperate with ,",
-      "value": "[]",
+      "value": "[1918489571]",
       "required": false
     },
     "INDEX_URL": {
@@ -44,7 +44,7 @@
     "IS_TEAM_DRIVE": {
       "description": "Does you 'GDRIVE_FOLDER_ID' lead to a Team Drive or Normal Google Drive Folder",
       "required": false,
-      "value": "False"
+      "value": "True"
     },
     "USE_SERVICE_ACCOUNTS": {
       "description": "If you are directly deploying from GitHub, set this to False. But if you later add Service Accounts, go to 'Config Vars' in app settings and set this to True.",
